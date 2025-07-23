@@ -1,6 +1,7 @@
 import { connectToDatabase } from '@/lib/mongodb';
 import Upload from '@/models/Upload';
 import Navbar from '../components/Navbar';
+//import DeleteButton from '../components/DeleteButton';
 
 export const dynamic = 'force-dynamic'; // Para que no use cache
 
@@ -37,7 +38,7 @@ export default async function ArchivosPage() {
               rel="noopener noreferrer"
               className="mt-2 sm:mt-0 text-blue-400 hover:underline"
             >
-              Ver archivo →
+              Ver archivo →x
             </a>
           </li>
         ))}

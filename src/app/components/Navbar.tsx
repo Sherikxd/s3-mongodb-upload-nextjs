@@ -24,6 +24,14 @@ export default function Navbar() {
           Ver Archivos
         </button>
       </Link>
+      <Link href="/foro">
+        <button
+          className={`text-white px-4 py-2 rounded ${isActive('/foro')}`}
+        >
+          Foro
+        </button>
+      </Link>
+
     </nav>
   );
 }
